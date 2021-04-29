@@ -1,7 +1,7 @@
 import unittest
 import full_name
 
-class testCubeVolume(unittest.TestCase):
+class testFullName(unittest.TestCase):
     def test_full_name_good(self):
         self.assertEqual(full_name.full_name('Bobby', 'Sinclusto'), 'Bobby Sinclusto')
         self.assertEqual(full_name.full_name('Greg', 'Todd'), 'Greg Todd')
