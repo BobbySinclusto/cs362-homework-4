@@ -12,7 +12,7 @@ class testListAvg(unittest.TestCase):
     def test_list_avg_empty(self):
         self.assertRaises(ValueError, list_avg.list_avg, [])
     
-    def test_list_avg_negative(self):
+    def test_list_avg_wrong_type(self):
         self.assertRaises(TypeError, list_avg.list_avg, [3, 4, 'asdf'])
         self.assertRaises(TypeError, list_avg.list_avg, ['203', '101', '3'])
 
